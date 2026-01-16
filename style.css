@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.poppins-font{
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* shared design */
+.display-flex {
+    display: flex;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    border-radius: 40px;
+    background-color: #E02C6D;
+    border: none;
+    padding: 10px 24px;
+    gap: 8px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+/* main design */
+header {
+    padding-top: 3.3125rem;
+}
+
+img {
+    width: 100%;
+}
+
+.navbar {
+    max-width: 1200px;
+    width: 83%;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2.5rem;
+}
+
+.nav-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #3A3A3A;
+}
+
+.nav-links {
+    align-items: center;
+    gap: 2.125rem;
+    list-style-type: none;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #3A3A3A;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* hero section design */
+.hero {
+    max-width: 1200px;
+    width: 83%;
+    margin: 0 auto;
+    align-items: center;
+    gap: 8.125rem;
+}
+
+.hero-content {
+    max-width: 582px;
+    text-align: left;
+}
+
+.hero-title {
+    color: #3A3A3A;
+    font-size: 3.25rem;
+    line-height: 4.375rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.hero-description{
+    color: #3A3A3A;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
+
+.hero-pic {
+    background-image: url("./images/Circle\ design.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: contain;
+}
+
+.main-camera {
+    max-width: 440px;
+}
+
+.sponsors {
+    max-width: 1110px;
+    width: 77%;
+    margin: 100px auto 0;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
